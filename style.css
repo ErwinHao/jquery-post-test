@@ -1,0 +1,50 @@
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  max-width: 75%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #2fa8f8;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.whatever {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#dropMe {
+  width: 50%;
+  cursor: pointer;
+  background-color: rgb(103, 103, 255);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#content {
+  display: none;
+  padding: 20px;
+  font-size: 2em;
+  color: red;
+}
+
+input {
+  color: #fff;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+}
